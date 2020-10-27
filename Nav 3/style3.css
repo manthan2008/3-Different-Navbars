@@ -45,7 +45,6 @@ a {
 header {
     background-color: #fff;
     box-shadow: 10px 10px 20px #ececec;
-    height: 80px;
 }
 
 .navbar {
@@ -92,4 +91,8 @@ ul li a {
     color: #fff;
     font-family: var(--body-font-4);
     font-weight: 300;
+}
+
+.toggle {
+    display: none;
 }
