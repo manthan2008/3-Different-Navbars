@@ -1,0 +1,94 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Lato:wght@300&family=Montserrat:wght@600&family=Poppins:wght@300;400;500;700&display=swap');
+
+/* Root */
+:root {
+    --body-font: 'Karla';
+    --body-font-2: 'Lato';
+    --body-font-3: 'Montserrat';
+    --body-font-4: 'Poppins';
+}
+
+:root {
+    --body-color: #1a1d27;
+    --color-one: #3862ec;
+}
+
+/* Base */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--body-color);
+    background-color: #f1f1f1;
+}
+
+.color-1 {
+    color: var(--color-one);
+}
+
+a {
+    text-decoration: none;
+    color: var(--body-color);
+}
+
+/* Global */
+
+.title {
+    font-size: 3rem;
+}
+
+/* Navbar */
+header {
+    background-color: #fff;
+    box-shadow: 10px 10px 20px #ececec;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li a {
+    font-size: 12px;
+    color: var(--body-color);
+    font-family: var(--body-font-4);
+    font-weight: 300;
+}
+
+.navbrand {
+    font-size: 1.5rem;
+    font-family: var(--body-font-4);
+    font-weight: 700;
+    color: var(--body-color);
+}
+
+.commonbtn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--color-one);
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    font-family: var(--body-font-4);
+    font-weight: 300;
+}
