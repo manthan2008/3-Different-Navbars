@@ -45,6 +45,7 @@ a {
 header {
     background-color: #fff;
     box-shadow: 10px 10px 20px #ececec;
+    height: 80px;
 }
 
 .navbar {
@@ -83,7 +84,7 @@ ul li a {
 }
 
 .commonbtn {
-    padding: 10px 20px;
+    padding: 7px 15px;
     border-radius: 10px;
     background-color: var(--color-one);
     border: none;
